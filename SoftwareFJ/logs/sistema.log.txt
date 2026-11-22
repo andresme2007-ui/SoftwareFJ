@@ -1,0 +1,341 @@
+2026-11-22 11:37:38,471 - ERROR - Error en prueba 1
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 18, in ejecutar_pruebas
+    cliente1 = Cliente(
+        "C001", "Andres Mejia",
+        "Andresme2007@gmail.com", "3219769091"
+    )
+TypeError: Cliente() takes no arguments
+2026-11-22 11:37:38,473 - ERROR - Error en prueba 2
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 28, in ejecutar_pruebas
+    Cliente("C002", "Ana", "correo_invalido", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Cliente() takes no arguments
+2026-11-22 11:37:38,474 - ERROR - Error en prueba 3
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 33, in ejecutar_pruebas
+    cliente2 = Cliente(
+        "C003", "Ximena Mejia",
+        "Andrea2004villarrealmejia@gmail.com", "3222443436"
+    )
+TypeError: Cliente() takes no arguments
+2026-11-22 11:37:38,475 - ERROR - Error en prueba 4
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 43, in ejecutar_pruebas
+    sala = ReservaSala("S001", "Sala principal", 50000)
+TypeError: ReservaSala() takes no arguments
+2026-11-22 11:37:38,476 - ERROR - Error en prueba 5
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 50, in ejecutar_pruebas
+    equipo = AlquilerEquipo("S002", "Proyector", 30000)
+TypeError: AlquilerEquipo() takes no arguments
+2026-11-22 11:37:38,477 - ERROR - Error en prueba 6
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 57, in ejecutar_pruebas
+    asesoria = Asesoria("S003", "Asesoría informática", 80000)
+               ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Asesoria() takes no arguments
+2026-11-22 11:37:38,507 - ERROR - Error en prueba 7
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 64, in ejecutar_pruebas
+    ReservaSala("S004", "Sala inválida", -500)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ReservaSala() takes no arguments
+2026-11-22 11:37:38,508 - ERROR - Error en prueba 8
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 69, in ejecutar_pruebas
+    Reserva("R001", None, sala, 2)
+                          ^^^^
+UnboundLocalError: cannot access local variable 'sala' where it is not associated with a value
+2026-11-22 11:37:38,509 - ERROR - Error en prueba 9
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 74, in ejecutar_pruebas
+    reserva1 = Reserva("R002", cliente1, sala, 2)
+                               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'cliente1' where it is not associated with a value
+2026-11-22 11:37:38,509 - ERROR - Error en prueba 10
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 83, in ejecutar_pruebas
+    reserva2 = Reserva("R003", cliente2, equipo, 2)
+                               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'cliente2' where it is not associated with a value
+2026-11-22 11:40:13,182 - ERROR - Error en prueba 1
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 19, in ejecutar_pruebas
+    cliente1 = Cliente(
+        "C001", "Andres Mejia",
+        "Andresme2007@gmail.com", "3219769091"
+    )
+TypeError: Cliente() takes no arguments
+2026-11-22 11:40:13,183 - ERROR - Error en prueba 2
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 29, in ejecutar_pruebas
+    Cliente("C002", "Ana", "correo_invalido", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Cliente() takes no arguments
+2026-11-22 11:40:13,184 - ERROR - Error en prueba 3
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 34, in ejecutar_pruebas
+    cliente2 = Cliente(
+        "C003", "Ximena Mejia",
+        "Andrea2004villarrealmejia@gmail.com", "3222443436"
+    )
+TypeError: Cliente() takes no arguments
+2026-11-22 11:40:13,185 - ERROR - Error en prueba 4
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 44, in ejecutar_pruebas
+    sala = ReservaSala("S001", "Sala principal", 50000)
+TypeError: ReservaSala() takes no arguments
+2026-11-22 11:40:13,186 - ERROR - Error en prueba 5
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 51, in ejecutar_pruebas
+    equipo = AlquilerEquipo("S002", "Proyector", 30000)
+TypeError: AlquilerEquipo() takes no arguments
+2026-11-22 11:40:13,187 - ERROR - Error en prueba 6
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 58, in ejecutar_pruebas
+    asesoria = Asesoria("S003", "Asesoría informática", 80000)
+               ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Asesoria() takes no arguments
+2026-11-22 11:40:13,192 - ERROR - Error en prueba 7
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 65, in ejecutar_pruebas
+    ReservaSala("S004", "Sala inválida", -500)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ReservaSala() takes no arguments
+2026-11-22 11:40:13,193 - ERROR - Error en prueba 8
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 70, in ejecutar_pruebas
+    Reserva("R001", None, sala, 2)
+                          ^^^^
+UnboundLocalError: cannot access local variable 'sala' where it is not associated with a value
+2026-11-22 11:40:13,194 - ERROR - Error en prueba 9
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 75, in ejecutar_pruebas
+    reserva1 = Reserva("R002", cliente1, sala, 2)
+                               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'cliente1' where it is not associated with a value
+2026-11-22 11:40:13,195 - ERROR - Error en prueba 10
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 84, in ejecutar_pruebas
+    reserva2 = Reserva("R003", cliente2, equipo, 2)
+                               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'cliente2' where it is not associated with a value
+2026-11-22 11:41:28,991 - ERROR - Error en prueba 1
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 19, in ejecutar_pruebas
+    cliente1 = Cliente(
+        "C001", "Andres Mejia",
+        "Andresme2007@gmail.com", "3219769091"
+    )
+TypeError: Cliente() takes no arguments
+2026-11-22 11:41:28,993 - ERROR - Error en prueba 2
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 29, in ejecutar_pruebas
+    Cliente("C002", "Ana", "correo_invalido", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Cliente() takes no arguments
+2026-11-22 11:41:28,994 - ERROR - Error en prueba 3
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 34, in ejecutar_pruebas
+    cliente2 = Cliente(
+        "C003", "Ximena Mejia",
+        "Andrea2004villarrealmejia@gmail.com", "3222443436"
+    )
+TypeError: Cliente() takes no arguments
+2026-11-22 11:41:28,994 - ERROR - Error en prueba 4
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 44, in ejecutar_pruebas
+    sala = ReservaSala("S001", "Sala principal", 50000)
+TypeError: ReservaSala() takes no arguments
+2026-11-22 11:41:28,995 - ERROR - Error en prueba 5
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 51, in ejecutar_pruebas
+    equipo = AlquilerEquipo("S002", "Proyector", 30000)
+TypeError: AlquilerEquipo() takes no arguments
+2026-11-22 11:41:28,995 - ERROR - Error en prueba 6
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 58, in ejecutar_pruebas
+    asesoria = Asesoria("S003", "Asesoría informática", 80000)
+               ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Asesoria() takes no arguments
+2026-11-22 11:41:29,001 - ERROR - Error en prueba 7
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 65, in ejecutar_pruebas
+    ReservaSala("S004", "Sala inválida", -500)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ReservaSala() takes no arguments
+2026-11-22 11:41:29,002 - ERROR - Error en prueba 8
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 70, in ejecutar_pruebas
+    Reserva("R001", None, sala, 2)
+                          ^^^^
+UnboundLocalError: cannot access local variable 'sala' where it is not associated with a value
+2026-11-22 11:41:29,002 - ERROR - Error en prueba 9
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 75, in ejecutar_pruebas
+    reserva1 = Reserva("R002", cliente1, sala, 2)
+                               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'cliente1' where it is not associated with a value
+2026-11-22 11:41:29,003 - ERROR - Error en prueba 10
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 84, in ejecutar_pruebas
+    reserva2 = Reserva("R003", cliente2, equipo, 2)
+                               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'cliente2' where it is not associated with a value
+2026-11-22 11:41:52,853 - INFO - Cliente registrado correctamente
+2026-11-22 11:41:52,854 - ERROR - Error en prueba 2
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 29, in ejecutar_pruebas
+    Cliente("C002", "Ana", "correo_invalido", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\SoftwareFJ\cliente.py", line 10, in __init__
+    raise ErrorCliente("Correo electrónico inválido")
+excepciones.ErrorCliente: Correo electrónico inválido
+2026-11-22 11:41:52,861 - INFO - Cliente registrado correctamente
+2026-11-22 11:41:52,861 - INFO - Servicio registrado correctamente
+2026-11-22 11:41:52,861 - INFO - Servicio registrado correctamente
+2026-11-22 11:41:52,861 - INFO - Servicio registrado correctamente
+2026-11-22 11:41:52,861 - ERROR - Error en prueba 7
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 65, in ejecutar_pruebas
+    ReservaSala("S004", "Sala inválida", -500)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\SoftwareFJ\servicios.py", line 6, in __init__
+    raise ErrorServicio("El precio debe ser positivo")
+excepciones.ErrorServicio: El precio debe ser positivo
+2026-11-22 11:41:52,863 - ERROR - Error en prueba 8
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 70, in ejecutar_pruebas
+    Reserva("R001", None, sala, 2)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\SoftwareFJ\reserva.py", line 6, in __init__
+    raise ErrorReserva("Debe existir un cliente")
+excepciones.ErrorReserva: Debe existir un cliente
+2026-11-22 11:41:52,865 - INFO - Reserva registrada correctamente
+2026-11-22 11:41:52,865 - INFO - Reserva R002 confirmada
+2026-11-22 11:41:52,865 - INFO - Reserva registrada correctamente
+2026-11-22 11:41:52,865 - INFO - Reserva R003 confirmada
+2026-11-22 11:41:52,865 - INFO - Reserva R003 cancelada
+2026-11-22 11:42:26,393 - INFO - Cliente registrado correctamente
+2026-11-22 11:42:26,394 - ERROR - Error en prueba 2
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 29, in ejecutar_pruebas
+    Cliente("C002", "Ana", "correo_invalido", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\user\Documents\SoftwareFJ\cliente.py", line 10, in __init__
+    raise ErrorCliente("Correo electrónico inválido")
+excepciones.ErrorCliente: Correo electrónico inválido
+2026-11-22 11:42:26,399 - INFO - Cliente registrado correctamente
+2026-11-22 11:42:26,399 - INFO - Servicio registrado correctamente
+2026-11-22 11:42:26,399 - INFO - Servicio registrado correctamente
+2026-11-22 11:42:26,400 - INFO - Servicio registrado correctamente
+2026-11-22 11:42:26,400 - ERROR - Error en prueba 7
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 65, in ejecutar_pruebas
+    ReservaSala("S004", "Sala inválida", -500)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\user\Documents\SoftwareFJ\servicios.py", line 6, in __init__
+    raise ErrorServicio("El precio debe ser positivo")
+excepciones.ErrorServicio: El precio debe ser positivo
+2026-11-22 11:42:26,403 - ERROR - Error en prueba 8
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 70, in ejecutar_pruebas
+    Reserva("R001", None, sala, 2)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\user\Documents\SoftwareFJ\reserva.py", line 6, in __init__
+    raise ErrorReserva("Debe existir un cliente")
+excepciones.ErrorReserva: Debe existir un cliente
+2026-11-22 11:42:26,405 - INFO - Reserva registrada correctamente
+2026-11-22 11:42:26,405 - INFO - Reserva R002 confirmada
+2026-11-22 11:42:26,405 - INFO - Reserva registrada correctamente
+2026-11-22 11:42:26,405 - INFO - Reserva R003 confirmada
+2026-11-22 11:42:26,406 - INFO - Reserva R003 cancelada
+2026-11-22 11:47:38,629 - INFO - Cliente registrado correctamente
+2026-11-22 11:47:38,630 - INFO - Servicio registrado correctamente
+2026-11-22 11:47:38,630 - INFO - Reserva registrada correctamente
+2026-11-22 11:47:38,630 - INFO - Reserva R100 confirmada
+2026-11-22 11:47:38,631 - INFO - Reserva R100 cancelada
+2026-11-22 11:47:40,084 - INFO - Cliente registrado correctamente
+2026-11-22 11:47:40,085 - ERROR - Error en prueba 2
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 34, in ejecutar_pruebas
+    Cliente("C002", "Ana", "correo_invalido", "123")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\SoftwareFJ\cliente.py", line 10, in __init__
+    raise ErrorCliente("Correo electrónico inválido")
+excepciones.ErrorCliente: Correo electrónico inválido
+2026-11-22 11:47:40,094 - INFO - Cliente registrado correctamente
+2026-11-22 11:47:40,094 - INFO - Servicio registrado correctamente
+2026-11-22 11:47:40,094 - INFO - Servicio registrado correctamente
+2026-11-22 11:47:40,094 - INFO - Servicio registrado correctamente
+2026-11-22 11:47:40,095 - ERROR - Error en prueba 7
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 70, in ejecutar_pruebas
+    ReservaSala("S004", "Sala inválida", -500)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\SoftwareFJ\servicios.py", line 6, in __init__
+    raise ErrorServicio("El precio debe ser positivo")
+excepciones.ErrorServicio: El precio debe ser positivo
+2026-11-22 11:47:40,096 - ERROR - Error en prueba 8
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 75, in ejecutar_pruebas
+    Reserva("R001", None, sala, 2)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\SoftwareFJ\reserva.py", line 6, in __init__
+    raise ErrorReserva("Debe existir un cliente")
+excepciones.ErrorReserva: Debe existir un cliente
+2026-11-22 11:47:40,098 - INFO - Reserva registrada correctamente
+2026-11-22 11:47:40,098 - INFO - Reserva R002 confirmada
+2026-11-22 11:47:40,098 - INFO - Reserva registrada correctamente
+2026-11-22 11:47:40,098 - INFO - Reserva R003 confirmada
+2026-11-22 11:47:40,098 - INFO - Reserva R003 cancelada
+2026-11-22 11:48:13,320 - ERROR - Error en el menú interactivo
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 192, in ejecutar_menu_interactivo
+    _registrar_cliente()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Documents\SoftwareFJ\main.py", line 129, in _registrar_cliente
+    cliente = Cliente(identificador, nombre, correo, telefono)
+  File "C:\Users\user\Documents\SoftwareFJ\cliente.py", line 10, in __init__
+    raise ErrorCliente("Correo electrónico inválido")
+excepciones.ErrorCliente: Correo electrónico inválido
+2026-11-22 11:48:57,413 - ERROR - Error en el menú interactivo
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 192, in ejecutar_menu_interactivo
+    _registrar_cliente()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 129, in _registrar_cliente
+    cliente = Cliente(identificador, nombre, correo, telefono)
+  File "c:\Users\user\Documents\SoftwareFJ\cliente.py", line 10, in __init__
+    raise ErrorCliente("Correo electrónico inválido")
+excepciones.ErrorCliente: Correo electrónico inválido
+2026-11-22 11:49:46,254 - ERROR - Error en el menú interactivo
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 196, in ejecutar_menu_interactivo
+    _crear_reserva()
+    ~~~~~~~~~~~~~~^^
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 157, in _crear_reserva
+    cliente = _buscar_por_identificador(sistema.clientes, id_cliente, "cliente")
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 121, in _buscar_por_identificador
+    raise ValueError(f"No se encontró {tipo} con identificador {identificador}")
+ValueError: No se encontró cliente con identificador andres
+2026-11-22 11:49:55,249 - ERROR - Error en el menú interactivo
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 198, in ejecutar_menu_interactivo
+    reserva = _buscar_reserva()
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 170, in _buscar_reserva
+    return _buscar_por_identificador(sistema.reservas, identificador, "reserva")
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 121, in _buscar_por_identificador
+    raise ValueError(f"No se encontró {tipo} con identificador {identificador}")
+ValueError: No se encontró reserva con identificador lol
+2026-11-22 11:50:02,051 - ERROR - Error en el menú interactivo
+Traceback (most recent call last):
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 202, in ejecutar_menu_interactivo
+    reserva = _buscar_reserva()
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 170, in _buscar_reserva
+    return _buscar_por_identificador(sistema.reservas, identificador, "reserva")
+  File "c:\Users\user\Documents\SoftwareFJ\main.py", line 121, in _buscar_por_identificador
+    raise ValueError(f"No se encontró {tipo} con identificador {identificador}")
+ValueError: No se encontró reserva con identificador lol
